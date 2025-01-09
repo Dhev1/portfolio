@@ -24,6 +24,7 @@ import {
     cluster,
     powerbi,
     threejs,
+   infosys,
   } from "../assets";
   
   export const navLinks = [
@@ -133,6 +134,19 @@ import {
 "Collaborating with cross-functional teams, including developers and content creators, to deliver high-quality design solutions while fostering teamwork.",
 "Gaining valuable insights and expanding design knowledge by working alongside like-minded individuals in the club.",
 "Ensuring all design deliverables meet quality standards and align with the club's branding and objectives.",
+      ],
+    },
+    {
+      title: "Full Stack Developer Intern",
+      company_name: "Infosys",
+      icon: infosys,
+      iconBg: "#E6DEDD",
+      date: "Nov 2024 - Jan 2025",
+      points: [
+        "Building and maintaining web applications using HTML, CSS, and JavaScript,ReactJs,NodeJs,MongoDb,MailTrap ensuring responsive design and optimal user experience.",
+"Utilizing Tailwind CSS and jQuery for efficient styling and interactive elements to enhance the frontend functionality.",
+"Developing backend services with Node.js and Express.js, implementing middleware for seamless data handling and application performance.",
+"Collaborating with designers using Figma to create visually appealing interfaces and translating designs into functional web applications.",
       ],
     },
     {

@@ -1,7 +1,7 @@
 
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
-import {ComputersCanvas} from './canvas';
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto xs:py-16 py-6  my:0  min-h-fit ">
@@ -12,8 +12,8 @@ const Hero = () => {
       {/* Profile Picture Container */}
       <div className="flex lg:h-[400px] lg:w-[400px] md:h-[275px] md:w-[275px] w-auto h-[46vw] justify-center my-auto">
         <img
-          src="src\assets\dhevprofil.png"
-          alt="John Doe profile picture"
+          src="/dhevprofil.png"
+          alt="Dhev profile picture"
           className="object-cover"
         />
       </div>
@@ -45,19 +45,19 @@ const Hero = () => {
         {/* Socials Container */}
         <div className="flex justify-center mt-4 gap-4">
           <img
-            src="src\assets\linkedin.png"
+            src="/linkedin.png"
             alt="LinkedIn profile"
             className="cursor-pointer h-8"
             onClick={() => (window.location.href = 'https://linkedin.com/in/dhev-selvam-14aa4523a/')}
           />
           <img
-            src="src\assets\github.png"
+            src="/github.png"
             alt="Github profile"
             className="cursor-pointer h-8"
             onClick={() => (window.location.href = 'https://github.com/Dhev1')}
           />
           <img
-            src="src\assets\instagram.png"
+            src="/instagram.png"
             alt="Instagram profile"
             className="cursor-pointer h-8"
             onClick={() => (window.location.href = 'https://www.instagram.com/d_h_ev/')}
@@ -72,7 +72,7 @@ const Hero = () => {
     <div className="flex flex-row items-center gap-2">
     <p className="text-center">Scroll down </p> 
     <img
-            src="src\assets\smile.png"
+            src="/smile.png"
             alt="Instagram profile"
             className="cursor-pointer h-8"/>
             </div>
